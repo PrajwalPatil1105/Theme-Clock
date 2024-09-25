@@ -15,6 +15,11 @@ let light=document.querySelector('#light')
 let dark=document.querySelector('#dark')
 
 
+
+
+dis.disabled = true;
+dayes.disabled = true;
+
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 

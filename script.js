@@ -28,7 +28,7 @@ setInterval(
         mhand.style.transform = "rotate("+minute+"deg)";
         hhand.style.transform = "rotate("+hour+"deg)";
 
-        dis.value=day.toLocaleTimeString();
+        dis.value=day.toLocaleTimeString('en-US');
         let a = day.getDay();
         let b = day.getMonth();
         let c = day.getDate();

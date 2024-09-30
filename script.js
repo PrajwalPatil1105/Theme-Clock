@@ -1,8 +1,6 @@
 let shand=document.querySelector('.sec');
 let mhand=document.querySelector('.min');
 let hhand=document.querySelector('.hour');
-let dis=document.querySelector('#display')
-let dayes=document.querySelector('#day')
 let button=document.querySelector('#modebtn')
 let modebutton=document.querySelector('.modebutton')
 let body=document.querySelector('body')
@@ -17,8 +15,8 @@ let dark=document.querySelector('#dark')
 
 
 
-dis.disabled = true;
-dayes.disabled = true;
+display.disabled = true;
+day.disabled = true;
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];

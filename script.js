@@ -35,7 +35,7 @@ setInterval(
         let a = day.getDay();
         let b = day.getMonth();
         let c = day.getDate();
-        dayes.value=days[a]+", "+"  "+months[b]+" "+" "+c;
+        day.value=days[a]+", "+"  "+months[b]+" "+" "+c;
     },1000
 )
 
